@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * The core module that allows content to be submitted to the site 
+ * 
+ * Module and  scripts may programatically submit nodes using the usual form
+ * APT pattern
+ */
+/**
+ * Implements hook_theme().
+ */
+function specbee_assignment_theme($existing, $type, $theme, $path){
+  return [
+    'current_timezone' => [
+      'variables' => [
+        'timezone' => NULL,
+        'currentdatetime' => NULL,
+        'country' => NULL,
+        'city' => NULL,
+        'error' => NULL
+      ],
+    ],
+  ];
+}

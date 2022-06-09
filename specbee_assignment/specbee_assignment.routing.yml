@@ -1,0 +1,7 @@
+specbee_assignment.admin_timezone_form:
+  path: "/admin/config/timezone/adminsettings"
+  defaults:
+    _form: '\Drupal\specbee_assignment\Form\TimeZone'
+    _title: "Timzone"
+  requirements:
+    _permission: "access administration pages"

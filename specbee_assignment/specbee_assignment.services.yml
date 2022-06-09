@@ -1,0 +1,4 @@
+services:
+  specbee_assignment.timezone:
+    class: Drupal\specbee_assignment\services\TimeZoneService
+    arguments: []
